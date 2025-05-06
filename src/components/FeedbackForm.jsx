@@ -9,6 +9,10 @@ const FeedbackForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        localStorage.setItem('feedbackusuario', JSON.stringify({
+             nome: nome,
+             comentario: comentario
+        }));
         alert(`Feedback enviado! \nNome: ${nome}\nEmail: ${email}\nComentário: ${comentario}`);
         setNome('');
         setEmail('');

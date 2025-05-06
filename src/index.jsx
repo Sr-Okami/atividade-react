@@ -6,6 +6,7 @@ import Contato from "./pages/Contato";
 import Sobre from "./pages/Sobre";
 import "./styles/index.css";
 import NotFound from "./pages/NotFound";
+import PerfilUsuario from "./components/PerfilUsuario";
 
 const iniciar = lazy(() => import("./pages/Iniciar"));
 const contato = lazy(() => import("./pages/Contato"));
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/Contato" element={<Contato />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/user/:id" element={<PerfilUsuario />} />
       </Routes>
     </Suspense>
   </BrowserRouter>
