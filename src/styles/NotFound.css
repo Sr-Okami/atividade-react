@@ -1,0 +1,13 @@
+#notfound{
+    background-color: #858585;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+#notfound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

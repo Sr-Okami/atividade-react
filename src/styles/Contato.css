@@ -1,0 +1,29 @@
+#titulo_contato {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(37, 8, 92);
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(37, 8, 92);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+#informacoes-contato {
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#informacoes-contato p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+#informacoes-contato strong {
+    color: rgb(37, 8, 92);
+}

@@ -1,0 +1,14 @@
+#titulo_Sobre{
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#texto_Sobre{
+    font-size: 1.2rem;
+    color: #000;
+    text-align: center;
+    margin: 20px 20% 0 20%;
+}

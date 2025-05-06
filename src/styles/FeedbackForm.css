@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+#caixaform{
+    color: rgb(255, 255, 255);
+    background: #005f5a;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 9px 30px #000000;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+input{
+    height: 24px;
+    width: 100%;
+    font-size: 16px;
+}
+textarea{
+    width: 100%;
+
+}
+#enviar{
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+#enviar:hover{
+    background-color: rgb(110, 34, 182);
+    border: 0.1px solid white;
+}
