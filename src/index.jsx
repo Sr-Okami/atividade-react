@@ -16,7 +16,7 @@ createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Suspense fallback={<div>Carregando Pagina...,</div>}>
       <Routes>
-        <Route path="/Iniciar" element={<Iniciar />} />
+        <Route path="/" element={<Iniciar />} />
         <Route path="/Contato" element={<Contato />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="*" element={<NotFound />} />

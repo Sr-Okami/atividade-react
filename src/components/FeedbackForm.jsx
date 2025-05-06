@@ -11,6 +11,7 @@ const FeedbackForm = () => {
         e.preventDefault();
         localStorage.setItem('feedbackusuario', JSON.stringify({
              nome: nome,
+             email: email,
              comentario: comentario
         }));
         alert(`Feedback enviado! \nNome: ${nome}\nEmail: ${email}\nComentário: ${comentario}`);

@@ -20,11 +20,10 @@ const PerfilUsuario = () => {
             <Titulo />
             <div className="perfil-usuario">
                 <div className="user">
-                    <i className="pi pi-user"></i>
-                    <h1>{feedbackusuario.nome || 'Usuário'}</h1>
+                    <h1>Usuário: {feedbackusuario.nome || 'Usuário'}</h1>
                 </div>
                 <div>
-                    <p>ID: {id}</p>
+                    <p>Email: {feedbackusuario.email}</p>
                     <p>Comentário: {feedbackusuario.comentario}</p>
                 </div>
             </div>

@@ -10,7 +10,7 @@ function Titulo() {
         <nav id="navegacao">
           <ul>
             <li>
-              <Link to="/Iniciar">Início</Link>
+              <Link to="/">Início</Link>
             </li>
             <li>
               <Link to="/Contato">Contato</Link>
